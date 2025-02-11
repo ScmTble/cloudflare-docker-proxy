@@ -22,7 +22,7 @@ routes = [
   { pattern = "k8s-gcr.scmtble.dev", custom_domain = true },
   { pattern = "k8s.scmtble.dev", custom_domain = true },
   { pattern = "ghcr.scmtble.dev", custom_domain = true },
-  # { pattern = "cloudsmith.scmtble.dev", custom_domain = true },
+  { pattern = "cloudsmith.scmtble.dev", custom_domain = true },
 ]
 
 [env.production.vars]
